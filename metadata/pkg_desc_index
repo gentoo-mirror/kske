@@ -1,1 +1,2 @@
 net-im/jitsi-meet-bin 2.5.1: Desktop application for Jitsi Meet built with Electron
+x11-wm/dwm 9999: a dynamic window manager for X11
