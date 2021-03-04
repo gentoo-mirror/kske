@@ -23,9 +23,6 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	x11-base/xorg-proto
 "
-PATCHES=(
-	"${FILESDIR}"/${PN}-4.9-gentoo.patch
-)
 
 src_prepare() {
 	default
