@@ -1,4 +1,4 @@
-net-im/jitsi-meet-bin 2.5.1: Desktop application for Jitsi Meet built with Electron
+net-im/jitsi-meet-bin 2.6.0: Desktop application for Jitsi Meet built with Electron
 x11-misc/dmenu 9999: a generic, highly customizable, and efficient menu for the X Window System
 x11-terms/st 9999: simple terminal implementation for X
 x11-wm/dwm 9999: a dynamic window manager for X11
