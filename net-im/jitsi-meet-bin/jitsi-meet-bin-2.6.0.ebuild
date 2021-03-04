@@ -44,11 +44,7 @@ src_install() {
 	einfo 'Applying chmod 4755 to chrome-sandbox'
 	chmod 4755 ${D}/opt/jitsi-meet/chrome-sandbox
 
-	# local size
-	# for size in 16 24 48 64 96 128 256 512; do
-	# 	newicon -s ${size} "${S}/resources/icons/icon_${size}x${size}.png" jitsi-meet.png
-	# done
-	# newicon -s scalable ${S}/app/images/logo.svg jitsi-meet.svg
+	newicon "${S}/resources/icon.png" jitsi-meet.png
 	make_desktop_entry "${PN}" Jitsi-meet jitsi-meet \
 		"Network;Chat;InstantMessaging;IRCClient" \
 		"Terminal=false\\nStartupNotify=true\\nStartupWMClass=Jitsi-meet"
