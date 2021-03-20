@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/jitsi/jitsi-meet-electron/issues</bugs-to>
+		<remote-id type="github">jitsi/jitsi-meet-electron</remote-id>
+	</upstream>
+	<maintainer type="person">
+		<email>kai@kske.dev</email>
+		<name>kske</name>
+	</maintainer>
+</pkgmetadata>
