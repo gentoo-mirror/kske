@@ -1,4 +1,5 @@
 net-im/jitsi-meet-bin 2.7.1: Desktop application for Jitsi Meet built with Electron
+net-misc/pipe-viewer 0.0.8 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
 x11-misc/dmenu 9999: a generic, highly customizable, and efficient menu for the X Window System
 x11-terms/st 9999: simple terminal implementation for X
 x11-wm/dwm 9999: a dynamic window manager for X11
