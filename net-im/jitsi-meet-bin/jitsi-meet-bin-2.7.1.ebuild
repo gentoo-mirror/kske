@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -18,11 +18,11 @@ DEPEND="net-libs/nodejs[npm] \
 
 KEYWORDS="~amd64"
 
-RESTRICT=network-sandbox
+RESTRICT="network-sandbox"
 
 src_unpack() {
 	default
-	mv ${WORKDIR}/* ${WORKDIR}/${P}
+	mv "${WORKDIR}"/* "${WORKDIR}/${P}"
 }
 
 src_compile() {
@@ -37,12 +37,12 @@ src_compile() {
 }
 
 src_install() {
-	mkdir -p ${D}/opt/jitsi-meet
-	cp ${S}/dist/linux-unpacked/* ${D}/opt/jitsi-meet -r
-	dosym /opt/jitsi-meet/jitsi-meet /usr/bin/jitsi-meet
+	mkdir -p "${D}/opt/jitsi-meet"
+	cp "${S}"/dist/linux-unpacked/* "${D}/opt/jitsi-meet" -r
+	dosym ../../opt/jitsi-meet/jitsi-meet /usr/bin/jitsi-meet
 
 	einfo 'Applying chmod 4755 to chrome-sandbox'
-	chmod 4755 ${D}/opt/jitsi-meet/chrome-sandbox
+	chmod 4755 "${D}/opt/jitsi-meet/chrome-sandbox"
 
 	newicon "${S}/resources/icon.png" jitsi-meet.png
 	make_desktop_entry "${PN}" Jitsi-meet jitsi-meet \
