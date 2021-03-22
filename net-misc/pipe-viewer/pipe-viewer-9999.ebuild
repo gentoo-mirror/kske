@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/trizen/pipe-viewer"
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/trizen/${PN}.git"
 
-LICENSE="|| ( Artistic GPL-1+ )"
+LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS=""
 IUSE="gtk"
