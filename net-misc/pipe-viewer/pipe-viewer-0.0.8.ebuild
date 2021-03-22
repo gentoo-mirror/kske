@@ -9,7 +9,7 @@ DESCRIPTION="A lightweight YouTube client for Linux (fork of straw-viewer)"
 HOMEPAGE="https://github.com/trizen/pipe-viewer"
 SRC_URI="https://github.com/trizen/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="|| ( Artistic GPL-1+ )"
+LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="gtk"
