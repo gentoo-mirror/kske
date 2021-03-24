@@ -1,3 +1,4 @@
+app-eselect/eselect-pinentry 0.7.2: Manage /usr/bin/pinentry symlink
 net-im/jitsi-meet-bin 2.7.1: Desktop application for Jitsi Meet built with Electron
 net-misc/pipe-viewer 0.0.8 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
 x11-misc/dmenu 9999: a generic, highly customizable, and efficient menu for the X Window System
