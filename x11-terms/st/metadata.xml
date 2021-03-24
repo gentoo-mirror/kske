@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>kai@kske.dev</email>
+		<name>Kai S. K. Engelbart</name>
+	</maintainer>
+</pkgmetadata>
