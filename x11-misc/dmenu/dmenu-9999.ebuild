@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -23,6 +23,10 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	x11-base/xorg-proto
 "
+
+PATCHES=(
+	"${FILESDIR}"/${PN}-5.0-gentoo.patch
+)
 
 src_prepare() {
 	default
