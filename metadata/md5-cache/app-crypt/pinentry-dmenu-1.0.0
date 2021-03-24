@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Passphrase entry dialog based on dmenu
+EAPI=7
+HOMEPAGE=https://git.kske.dev/kske/gentoo-overlay
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-eselect/eselect-pinentry-0.7.2 x11-misc/dmenu
+SLOT=0
+_md5_=f89b0dfec328c982d08adcf39e2b1b15
