@@ -37,7 +37,7 @@ RDEPEND="
 	)
 	|| ( >=media-video/ffmpeg-4.1.3[openssl,-libressl] >=media-video/ffmpeg-4.1.3[-openssl,libressl] >=media-video/ffmpeg-4.1.3[gnutls] )
 	|| ( media-video/mpv media-video/mplayer media-video/vlc gtk? ( media-video/smplayer ) )"
-DEPEND="dev-perl/Module-Build"
+BDEPEND="dev-perl/Module-Build"
 
 src_configure() {
 	local myconf
