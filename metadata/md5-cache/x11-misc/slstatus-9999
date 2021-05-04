@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=x11-libs/libX11 x11-libs/libXft virtual/pkgconfig x11-base/xorg-proto
+DESCRIPTION=Suckless Status Tool
+EAPI=7
+HOMEPAGE=https://tools.suckless.org/slstatus/
+INHERIT=desktop multilib savedconfig toolchain-funcs git-r3 autotools
+IUSE=savedconfig savedconfig
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc64 ~x86
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=x11-libs/libX11 x11-libs/libXft
+SLOT=0
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	portability	c10bdc40668533b1faf15b1d89df0303	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52	gnuconfig	9f91b4b0c84e734a87492d4293f03de5	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	9e63f92c2a5d867fea55ecb160c7d354
+_md5_=bdabd35bd10d841f78975016b7815066
