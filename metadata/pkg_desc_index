@@ -1,7 +1,7 @@
 app-crypt/pinentry-dmenu 1.0.0: Passphrase entry dialog based on dmenu
 app-eselect/eselect-pinentry 0.7.2: Manage /usr/bin/pinentry symlink
 net-im/jitsi-meet-bin 2.8.3: Desktop application for Jitsi Meet built with Electron
-net-misc/pipe-viewer 0.1.0 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
+net-misc/pipe-viewer 0.1.1 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
 x11-misc/dmenu 9999: a generic, highly customizable, and efficient menu for the X Window System
 x11-misc/slstatus 9999: Suckless Status Tool
 x11-terms/st 9999: simple terminal implementation for X
